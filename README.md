@@ -20,9 +20,13 @@ It comprises 34 nodes representing club members and edges indicating interaction
 This Python script analyzes Zachary's karate club network from the "karate.gml" file using NetworkX, a graph analysis library. It performs the following tasks:
 
 i. Creates a graph from the "karate.gml" file and displays basic information about the network.
+
 ii. Stores metadata of actors in the network.
+
 iii. Calculates various centrality measures (degree, betweenness, closeness, eigenvector, and pagerank centrality) and provides an analysis based on the centrality values.
+
 iv. Finds possible k-components of the network and computes the clustering coefficient.
+
 v. Identifies communities using the Girvan-Newman algorithm and Louvain method.
 
 Ensure NetworkX is installed (`pip install networkx`) and the "karate.gml" file is downloaded from the repository and  Update the file path accordingly.
