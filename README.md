@@ -4,7 +4,7 @@ A natural language processing (NLP) technique called Named Entity Recognition (N
 NER's main objective is to identify entities and their types in order to extract structured information from unstructured text. For many NLP applications, including document summarization, information retrieval, and responding systems, this task is essential.
 Tokenizing the input text into words or phrases and then categorizing each token into preset entity categories are the usual steps involved in NER. For NER, a variety of deep learning and machine learning techniques are used, such as neural network-based models 
 like Bidirectional LSTMs, statistical models like Conditional Random Fields (CRF), and rule-based techniques.
-_
+
 1.(ii).Python code to recognize named entities in a document. 
 
 This Python script performs Named Entity Recognition (NER) on a text document provided as input. 
@@ -16,6 +16,7 @@ Also we have uploaded the input and output text files in this repository.
 
 **2.Zachary's karate club network, accessible as karate.gml via NetworkX, analyzes group conflicts and fission. 
 It comprises 34 nodes representing club members and edges indicating interactions outside club activities.**
+
 This Python script analyzes Zachary's karate club network from the "karate.gml" file using NetworkX, a graph analysis library. It performs the following tasks:
 
 i. Creates a graph from the "karate.gml" file and displays basic information about the network.
